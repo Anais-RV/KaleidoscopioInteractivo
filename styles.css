@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    background: #222; /* Fondo oscuro */
+    overflow: hidden; /* Ocultar el desbordamiento de la ventana */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  canvas {
+    display: block; /* Elimina el espacio adicional alrededor del canvas */
+    position: absolute; /* Ubica el canvas para llenar la pantalla */
+  }
+  
